@@ -1,12 +1,12 @@
 .advantages {
 	padding: 70px 0 78px 0;
 	background-color: #f6f6f6;
-	&__wrapper{
+	&__wrapper {
 		margin-top: 65px;
 		display: flex;
 		justify-content: space-between;
 	}
-	&__item{
+	&__item {
 		display: flex;
         flex-direction: column;
         align-items: center;
@@ -18,7 +18,7 @@
         font-size: 18px;
         font-weight: 700;
 	}
-	&__descr{
+	&__descr {
 		margin-top: 26px;
 		font-size: 14px;
 		line-height: 1.2;
@@ -29,6 +29,28 @@
             color: #ff0000;
             text-decoration: underline;
         }
+	}
+	&__icon {
+		&_animated-heart {
+			animation-name: heartbeat;
+			animation-duration: 1.5s;
+			animation-timing-function:ease;
+		    animation-iteration-count:infinite;
+		}
+		&_animated-cup {
+			animation-name: cupbeat;
+			animation-duration: 1.5s;
+			animation-timing-function:ease;
+		    animation-iteration-count:infinite;
+		}
+		&_animated-shoe {
+			animation-name: shoebeat;
+			animation-duration: 1.5s;
+			animation-timing-function:ease;
+		    animation-iteration-count:infinite;
+		}
+
+
 	}
 }
 
